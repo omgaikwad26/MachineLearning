@@ -4,15 +4,20 @@
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-## 📡 Project Overview
+## Project Overview
 This project focuses on classifying moving objects (Cars, Drones, and People) using **mmWave radar spectrogram data**. The radar data is processed using **CFAR (Constant False Alarm Rate) detection** and includes range-Doppler matrices representing detected objects. 
 
 I implemented a **Random Forest classifier** to automatically recognize targets based on their radar return signatures, combining **Digital Signal Processing (DSP)** techniques with **machine learning**.
+
+---
+## How to Run
+Go to: https://www.kaggle.com/code/omgaikwad2003/mmwave-signal-classification
+
 ---
 
 ## 🧠 Methodology
 
-### Data
+### Dataset
 - Radar spectrograms captured via **FMCW radar** and labeled into three classes:
   - `Cars`
   - `Drones`
